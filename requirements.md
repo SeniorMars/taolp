@@ -1,0 +1,12 @@
+# Requirements
+	- First of all the goal should be that this website is under the official rice.edu domain: why? Because it's an official class. CMU and MIT's version of this class is under their domain. Why can't this class also do the same.
+	- Has to be simple and lightweight. Ideally the website to should very simiar to MIT and the guy who writes excellent Rust articles.
+	- Has to use github actions in some way.
+	- Be rendered using github pages?
+	- Have syntax highlighting for any language I desire.
+	- Be reproducible anywhere.
+	- This is my chance to get good at CZ and I should use.
+	- Should be modular and extensible.
+	- If anyone ever wants to help me with this, then they should be able to.
+	- Don't make it more complex than it has to be.
+	- Personal deadline for this website? Probably before 2022 starts.
