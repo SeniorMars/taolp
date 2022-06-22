@@ -23,45 +23,40 @@
 - [Week 3 Video]()
 - [Week 3 Homework]()
 
-# Terminal Text Editors & Better Alternatives
+# SSH, TMUX, and Intro to Servers
 - [Week 4]()
 - [Week 4 Video]()
 - [Week 4 Homework]()
 
-# SSH, TMUX, and CronJobs
+# Version Control & Advance Git
 - [Week 5]()
 - [Week 5 Video]()
 - [Week 5 Homework]()
 
-# Version Control
+# Github, Other Programming Websites, and Open Source
 - [Week 6]()
 - [Week 6 Video]()
 - [Week 6 Homework]()
 
-# Github, Other Programming Websites, and Open Source
+# Continuous & Programming Automation
 - [Week 7]()
 - [Week 7 Video]()
 - [Week 7 Homework]()
 
-# Automation Through Programming
+# Debugging, Profiling & Test Driven Development
 - [Week 8]()
 - [Week 8 Video]()
 - [Week 8 Homework]()
 
-# Debugging, Profiling & Test Driven Development
+# Cryptography & Security
 - [Week 9]()
 - [Week 9 Video]()
 - [Week 9 Homework]()
 
-# Cryptography & Security
+# Potpourri
 - [Week 10]()
 - [Week 10 Video]()
 - [Week 10 Homework]()
-
-# Potpourri
-- [Week 11]()
-- [Week 11 Video]()
-- [Week 11 Homework]()
 
 # Final Presentations
 - [Rubric]()
@@ -86,8 +81,9 @@
 [Week 8 Installation]()
 [Week 9 Installation]()
 [Week 10 Installation]()
-[Week 11 Installation]()
+[More Tools & Other Recommendations]()
 
 -----------
+[Extra]()
 [Contributors](misc/contributors.md)
 [License](license.md)
