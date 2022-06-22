@@ -1,0 +1,17 @@
+[book]
+authors = ["KarlWithK"]
+language = "en"
+multilingual = false
+src = "src"
+title = "The Art Of Lazy Programming"
+description = "COLL 128 - The Art Of Lazy Programming is a class that teaches students how to master their Programming environment"
+
+[rust]
+edition = "2021"
+
+[output.html]
+git-repository-url = "https://github.com/KarlWithK/taolp"
+edit-url-template = "https://github.com/KarlWithK/taolp/edit/master/guide/{path}"
+default-theme = "ayu"
+preferred-dark-theme = "ayu"
+mathjax-support = true

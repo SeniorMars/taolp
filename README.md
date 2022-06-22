@@ -1,2 +1,3 @@
-# taolp
-The class website for "The Art Of Lazy Programming". Hopefully, I am able to serve it under the official rice.edu domain.
+# The Art Of Lazy Programming
+
+The class website for "The Art Of Lazy Programming" taught by Carlos "Karl" Hernandez.
