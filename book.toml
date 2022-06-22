@@ -11,7 +11,7 @@ edition = "2021"
 
 [output.html]
 git-repository-url = "https://github.com/KarlWithK/taolp"
-edit-url-template = "https://github.com/KarlWithK/taolp/edit/master/guide/{path}"
+edit-url-template = "https://github.com/KarlWithK/taolp/edit/master/src/{path}"
 default-theme = "ayu"
 preferred-dark-theme = "ayu"
 mathjax-support = true
