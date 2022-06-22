@@ -1,2 +1,2 @@
 # Why was this class made?
-To reach vim and rust. crab time.
+To teach vim and rust. crab time.
