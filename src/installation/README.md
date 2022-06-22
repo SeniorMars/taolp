@@ -1,0 +1,3 @@
+# Installation
+
+Install Neovim + Rust!
