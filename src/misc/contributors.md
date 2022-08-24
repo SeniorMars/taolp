@@ -2,7 +2,7 @@
 
 Here is a list of the contributors who have helped improving The Art of Lazy Programming. Big.
 
-- [Karl Hernandez](https://github.com/KarlWithK)
+- [Charlie Cruz](https://github.com/KarlWithK)
 - [Shreyas Minocha](https://shreyasminocha.me)
 
 If you feel you're missing from this list, feel free to add yourself in a PR.
