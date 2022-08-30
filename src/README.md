@@ -1,8 +1,6 @@
 # The Art Of Lazy Programming
 
-The full website for the art of lazy programming will be released on the
-first day of the 2022 fall semester :)
 
-[Syllabus](https://drive.google.com/file/d/12VgJQQLNKpBqZ0NH-6QaEgQYDTzZiKmw/view?usp=sharing)
+In your time as a Computer Scientist at Rice, you will learn many theoretical aspects of Computer Science and the way to apply programming to complex topics. However, another crucial step towards becoming a great Computer Scientist is efficiency as a developer. The Art of Lazy Programming is a one-credit course where students will be taught precisely that: students will learn vital information every programmer should know, tips on learning complex but time-saving tools, and most importantly, the answer to **"how does one master their programming environment and gain the knowledge needed to be an experienced programmer"?**
 
-<embed type="application/pdf" src="static/syllabus.pdf" width="100%" height="600">
+The intention of this class is to teach students various tools and topics such as grep, docker, and sshfs -- that will make their life easier by introducing efficiency. While students may learn some of these tools in classes and spend dozen of hours using them, their core benefits are never explicitly taught. Yet, mastering these tools will allow students to solve large-scale problems that seem impossibly complex. Additionally, upon completion of the course, students will also develop problem-solving skills that can be applicable outside Computer Science.
