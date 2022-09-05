@@ -6,7 +6,8 @@ In this guide, I'll teach you how to log into CLEAR and commit your first assign
 Everyone has their own preferences for setting up environments and workflows on remote machines. These are the practices that we have found that significantly speed things up and make things easier, but you are of course welcome to use what works best for you. If you have limited experience, we recommend you follow these guidelines to get started. Make sure to view the notes for [basic unix commands](../week0/notes.md). This tutorial is intended for MacOS and/or Linux Users, but instructions for Windows are included.
 
 ## What is CLEAR?
-"CLEAR is a robust and dynamic Linux cluster with exciting features available to Rice students and faculty. The cluster is designed to offer a Linux environment available for teaching and courseware needs. For research needs, the Shared Research Computing Cluster is a more appropriate environment." Specifically, clear is the environment we will be using for this class as everyone will have the same environment: fedora linux.
+"CLEAR is a robust and dynamic Linux cluster with exciting features available to Rice students and faculty. The cluster is designed to offer a Linux environment available for teaching and courseware needs." 
+Specifically, CLEAR is the cluster we will be using for this class, as we'll all be using Fedora Linux as our environment.
 
 ## How to login into CLEAR
 To access the CLEAR cluster interactively, you must have an SSH client. Simply use ssh.clear.rice.edu as the host name and log in with your Rice NetID and password. Your home directory will be the same as your desktop home provided from storage.rice.edu.
@@ -16,14 +17,16 @@ If you don't have a home drive when using Clear, please create a ticket in https
 # Installing an SSH client 
 
 ## Windows -- Windows Subsystem For Linux and Putty
-If you are on windows, it is recommended to install the [Windows Subsystem for Linux with Ubuntu](https://docs.microsoft.com/en-us/windows/wsl/install) (WSL). Windows Powershell is now compatible with OpenSSH on Windows 10, however, for optimal server use for our labs, a *UNIX environment is fully preferred. The Windows Subsystem for Linux brings a full Linux experience to Windows 10 with WSL 2 bringing a full Linux kernel to windows. If your computer/laptop does not support virtualization, then a SSH program like [putty](https://www.puttygen.com/download-putty) may be ideal.
+If you are on Windows, it is recommended to install the [Windows Subsystem for Linux with Ubuntu](https://docs.microsoft.com/en-us/windows/wsl/install) (WSL). Windows Powershell is now compatible with OpenSSH on Windows 10, however, for optimal server use for our labs, a *UNIX environment is fully preferred. The Windows Subsystem for Linux brings a full Linux experience to Windows 10 with WSL 2 bringing a full Linux kernel to windows. If your computer/laptop does not support virtualization, then a SSH program like [putty](https://www.puttygen.com/download-putty) may be ideal.
 
 ### Windows Subsystem for Linux
-You may find my old video on installing WSL useful: https://www.youtube.com/watch?v=htBOnNsrDBA . However it is likely, that all you need to run is on a powershell instance with admin privileges:
+Likely, you'll just need to run this one powershell instance with admin privileges:
 
 ```powershell
 wsl --install
 ```
+
+If lost, you may find my old video on installing WSL useful: https://www.youtube.com/watch?v=htBOnNsrDBA.
 
 
 ## Linux -- Ubuntu
@@ -35,7 +38,7 @@ $ sudo apt install openssh-client
 ```
 
 ## MacOS
-If you are on a Mac, you already have an ssh client. However, in the case you don't you should install iterm2. Or these instructions may be useful.
+If you are on a Mac, you already have an ssh client. However, in the case you don't, you should install iTerm2. Alternatively, the following instructions may be useful.
 
 ```bash
 $ sudo systemsetup -setremotelogin on
@@ -51,10 +54,13 @@ It's also recommended to install Xcode.
 Once you have an ssh client, you can log into CLEAR with the following command:
 
 ```bash
-$ ssh [username]@[ssh.clear.rice.edu]
+$ ssh [your Rice NetID]@[ssh.clear.rice.edu]
 ```
+Example for Windows: https://imgur.com/a/CyQ2vU4
 
-Doing this successfully will log you into CLEAR. It is important to note that you may need to type your password twice (onkDce for the ssh client and once DUO authentication).
+Doing this successfully will log you into CLEAR. It is important to note that you may need to type your password twice (once for the ssh client and once DUO authentication).
+
+Once again, note that if you don't have a home drive when using Clear, please create a ticket in https://help.rice.edu Be sure to put "need clear home directory" in the subject and one will be setup for you.
 
 You should now be logged into CLEAR.
 
