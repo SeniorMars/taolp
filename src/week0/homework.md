@@ -9,7 +9,7 @@ Please fill out the form / or send me your github username to be added to the te
 The links are: https://forms.gle/7xPFEEouiEviU9vo8, https://github.com/RTAOLP/week0_section1, https://github.com/RTAOLP/week0_section2
 
 ## Notes
-Please take a look at the notes in the [week0 notes](../notes.md) for instructions the cli.
+Please take a look at the notes in the [week0 notes](./notes.md) for instructions the cli.
 
 !!! note
 
