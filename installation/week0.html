@@ -147,24 +147,26 @@
 <h2 id="getting-started-with-remote-servers"><a class="header" href="#getting-started-with-remote-servers">Getting Started with Remote Servers</a></h2>
 <p>Everyone has their own preferences for setting up environments and workflows on remote machines. These are the practices that we have found that significantly speed things up and make things easier, but you are of course welcome to use what works best for you. If you have limited experience, we recommend you follow these guidelines to get started. Make sure to view the notes for <a href="../week0/notes.html">basic unix commands</a>. This tutorial is intended for MacOS and/or Linux Users, but instructions for Windows are included.</p>
 <h2 id="what-is-clear"><a class="header" href="#what-is-clear">What is CLEAR?</a></h2>
-<p>&quot;CLEAR is a robust and dynamic Linux cluster with exciting features available to Rice students and faculty. The cluster is designed to offer a Linux environment available for teaching and courseware needs. For research needs, the Shared Research Computing Cluster is a more appropriate environment.&quot; Specifically, clear is the environment we will be using for this class as everyone will have the same environment: fedora linux.</p>
+<p>&quot;CLEAR is a robust and dynamic Linux cluster with exciting features available to Rice students and faculty. The cluster is designed to offer a Linux environment available for teaching and courseware needs.&quot; 
+Specifically, CLEAR is the cluster we will be using for this class, as we'll all be using Fedora Linux as our environment.</p>
 <h2 id="how-to-login-into-clear"><a class="header" href="#how-to-login-into-clear">How to login into CLEAR</a></h2>
 <p>To access the CLEAR cluster interactively, you must have an SSH client. Simply use ssh.clear.rice.edu as the host name and log in with your Rice NetID and password. Your home directory will be the same as your desktop home provided from storage.rice.edu.</p>
 <p>If you don't have a home drive when using Clear, please create a ticket in https://help.rice.edu Be sure to put &quot;need clear home directory&quot; in the subject and one will be setup for you.</p>
 <h1 id="installing-an-ssh-client"><a class="header" href="#installing-an-ssh-client">Installing an SSH client</a></h1>
 <h2 id="windows----windows-subsystem-for-linux-and-putty"><a class="header" href="#windows----windows-subsystem-for-linux-and-putty">Windows -- Windows Subsystem For Linux and Putty</a></h2>
-<p>If you are on windows, it is recommended to install the <a href="https://docs.microsoft.com/en-us/windows/wsl/install">Windows Subsystem for Linux with Ubuntu</a> (WSL). Windows Powershell is now compatible with OpenSSH on Windows 10, however, for optimal server use for our labs, a *UNIX environment is fully preferred. The Windows Subsystem for Linux brings a full Linux experience to Windows 10 with WSL 2 bringing a full Linux kernel to windows. If your computer/laptop does not support virtualization, then a SSH program like <a href="https://www.puttygen.com/download-putty">putty</a> may be ideal.</p>
+<p>If you are on Windows, it is recommended to install the <a href="https://docs.microsoft.com/en-us/windows/wsl/install">Windows Subsystem for Linux with Ubuntu</a> (WSL). Windows Powershell is now compatible with OpenSSH on Windows 10, however, for optimal server use for our labs, a *UNIX environment is fully preferred. The Windows Subsystem for Linux brings a full Linux experience to Windows 10 with WSL 2 bringing a full Linux kernel to windows. If your computer/laptop does not support virtualization, then a SSH program like <a href="https://www.puttygen.com/download-putty">putty</a> may be ideal.</p>
 <h3 id="windows-subsystem-for-linux"><a class="header" href="#windows-subsystem-for-linux">Windows Subsystem for Linux</a></h3>
-<p>You may find my old video on installing WSL useful: https://www.youtube.com/watch?v=htBOnNsrDBA . However it is likely, that all you need to run is on a powershell instance with admin privileges:</p>
+<p>Likely, you'll just need to run this one powershell instance with admin privileges:</p>
 <pre><code class="language-powershell">wsl --install
 </code></pre>
+<p>If lost, you may find my old video on installing WSL useful: https://www.youtube.com/watch?v=htBOnNsrDBA.</p>
 <h2 id="linux----ubuntu"><a class="header" href="#linux----ubuntu">Linux -- Ubuntu</a></h2>
 <p>If you are on linux, you can install an ssh-client with the following command:</p>
 <pre><code class="language-bash">$ sudo apt-get update &amp;&amp; sudo apt-get upgrade
 $ sudo apt install openssh-client
 </code></pre>
 <h2 id="macos"><a class="header" href="#macos">MacOS</a></h2>
-<p>If you are on a Mac, you already have an ssh client. However, in the case you don't you should install iterm2. Or these instructions may be useful.</p>
+<p>If you are on a Mac, you already have an ssh client. However, in the case you don't, you should install iTerm2. Alternatively, the following instructions may be useful.</p>
 <pre><code class="language-bash">$ sudo systemsetup -setremotelogin on
 $ sudo systemsetup -getremotelogin
 </code></pre>
@@ -173,9 +175,11 @@ $ sudo systemsetup -getremotelogin
 - Run the following in a terminal in install xcode command line tools: <code>$ xcode-select --install</code></p>
 <h1 id="logging-into-clear"><a class="header" href="#logging-into-clear">Logging into CLEAR</a></h1>
 <p>Once you have an ssh client, you can log into CLEAR with the following command:</p>
-<pre><code class="language-bash">$ ssh [username]@[ssh.clear.rice.edu]
+<pre><code class="language-bash">$ ssh [your Rice NetID]@[ssh.clear.rice.edu]
 </code></pre>
-<p>Doing this successfully will log you into CLEAR. It is important to note that you may need to type your password twice (onkDce for the ssh client and once DUO authentication).</p>
+<p>Example for Windows: https://imgur.com/a/CyQ2vU4</p>
+<p>Doing this successfully will log you into CLEAR. It is important to note that you may need to type your password twice (once for the ssh client and once DUO authentication).</p>
+<p>Once again, note that if you don't have a home drive when using Clear, please create a ticket in https://help.rice.edu Be sure to put &quot;need clear home directory&quot; in the subject and one will be setup for you.</p>
 <p>You should now be logged into CLEAR.</p>
 <h2 id="further-customization"><a class="header" href="#further-customization">Further Customization</a></h2>
 <p>View the <a href="../installation/extra.html">extra notes</a> for more information on how to customize your environment. Specifically, how to log into CLEAR faster and bypass DUO.</p>
