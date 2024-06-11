@@ -15,7 +15,7 @@ jobs:
       pages: write  # To push to a GitHub Pages site
       id-token: write # To update the deployment status
     environment:
-      name: github-pages
+      name: gh-pages
     steps:
       - uses: actions/checkout@v4
         with:
