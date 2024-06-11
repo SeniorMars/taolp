@@ -45,7 +45,7 @@ jobs:
         uses: actions-rs/cargo@v1
         with:
           command: install
-          args: mdbook mdbook-admonis
+          args: mdbook mdbook-admonish
 
       - name: Build Book
         run: |
