@@ -5,15 +5,18 @@ on:
       - main
   pull_request:
 
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: false
+
+permissions:
+  contents: write  # To push a branch
+  pages: write  # To push to a GitHub Pages site
+  id-token: write # To update the deployment status
+
 jobs:
-  deploy:
-    runs-on: ubuntu-20.04
-    concurrency:
-      group: ${{ github.workflow }}-${{ github.ref }}
-    permissions:
-      contents: write  # To push a branch
-      pages: write  # To push to a GitHub Pages site
-      id-token: write # To update the deployment status
+  build:
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
         with:
@@ -46,21 +49,27 @@ jobs:
         with:
           command: install
           args: mdbook mdbook-admonish
-
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
       - name: Build Book
         run: |
           mdbook-admonish install ./
           mdbook build
-          touch book/.nojekyll
-          touch book/CNAME
+          touch ./book/.nojekyll
+          touch ./book/CNAME
           echo 'lazy.rice.edu' >> book/CNAME
-      - name: Setup Pages
-        uses: actions/configure-pages@v4
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
           # Upload entire repository
           path: 'book'
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
