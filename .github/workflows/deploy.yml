@@ -1,29 +1,66 @@
-name: github pages
-
+name: GitHub Pages
 on:
   push:
     branches:
       - main
+  pull_request:
 
 jobs:
   deploy:
     runs-on: ubuntu-20.04
     concurrency:
       group: ${{ github.workflow }}-${{ github.ref }}
+    permissions:
+      contents: write  # To push a branch
+      pages: write  # To push to a GitHub Pages site
+      id-token: write # To update the deployment status
     steps:
-      - uses: actions/checkout@v2
-
-      - name: Setup mdBook
-        uses: peaceiris/actions-mdbook@v1
+      - uses: actions/checkout@v4
         with:
-          mdbook-version: 'latest'
+          fetch-depth: 0
 
-      - run: mdbook build
-
-      - name: Deploy
-        uses: peaceiris/actions-gh-pages@v3
-        if: ${{ github.ref == 'refs/heads/main' }}
+      # Install Rust & its package manager Cargo
+      - name: Install cargo
+        uses: actions-rs/toolchain@v1
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./book
-          cname: lazy.rice.edu
+          toolchain: stable
+          profile: minimal
+      # Cache installation assets
+      - name: Cache cargo registry
+        uses: actions/cache@v1
+        with:
+          path: ~/.cargo/registry
+          key: ${{ runner.os }}-cargo-registry-${{ hashFiles('**/Cargo.lock') }}
+      - name: Cache cargo index
+        uses: actions/cache@v1
+        with:
+          path: ~/.cargo/git
+          key: ${{ runner.os }}-cargo-index-${{ hashFiles('**/Cargo.lock') }}
+      - name: Cache cargo build
+        uses: actions/cache@v1
+        with:
+          path: target
+          key: ${{ runner.os }}-cargo-build-target-${{ hashFiles('**/Cargo.lock') }}
+      - name: Install mdbook and admonis plugin
+        uses: actions-rs/cargo@v1
+        with:
+          command: install
+          args: mdbook mdbook-admonis
+
+      - name: Build Book
+        run: |
+          mdbook-admonish install ./
+          mdbook build
+          touch book/.nojekyll
+          touch book/CNAME
+          echo 'lazy.rice.edu' >> book/CNAME
+      - name: Setup Pages
+        uses: actions/configure-pages@v4
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          # Upload entire repository
+          path: 'book'
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
