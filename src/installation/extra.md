@@ -194,3 +194,5 @@ Transitioning to Fish can be straightforward due to its intelligent design. It r
 Fish is particularly useful for developers who value a rich, straightforward, and interactive command line experience. Its syntax and features promote efficiency and ease of use, potentially making your command line tasks faster and more enjoyable.
 
 For those interested in exploring the power of Fish or wanting a break from the more traditional Bash shell, Fish offers a refreshing and powerful alternative.
+
+Anyway, choose Fish cuz it's cool.

@@ -14,6 +14,8 @@ jobs:
       contents: write  # To push a branch
       pages: write  # To push to a GitHub Pages site
       id-token: write # To update the deployment status
+    environment:
+      name: github-pages
     steps:
       - uses: actions/checkout@v4
         with:
