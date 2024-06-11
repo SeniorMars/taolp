@@ -16,7 +16,7 @@ This is a human-readable summary of (and not a substitute for) the [license](htt
 
 ## Contribution guidelines
 
-You can submit corrections and suggestions to the course material by submitting issues and pull requests on our GitHub [repo](https://github.com/KarlWithK/taolp). Remember to add yourself to [contributions](./misc/contributors.md).
+You can submit corrections and suggestions to the course material by submitting issues and pull requests on our GitHub [repo](https://github.com/SeniorMars/taolp). Remember to add yourself to [contributions](./misc/contributors.md).
 
 ## Translation guidelines
 

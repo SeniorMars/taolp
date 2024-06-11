@@ -1,5 +1,5 @@
 [book]
-authors = ["KarlWithK"]
+authors = ["SeniorMars"]
 language = "en"
 multilingual = false
 src = "src"
@@ -10,8 +10,28 @@ description = "COLL 128 - The Art Of Lazy Programming is a class that teaches st
 edition = "2021"
 
 [output.html]
-git-repository-url = "https://github.com/KarlWithK/taolp"
-edit-url-template = "https://github.com/KarlWithK/taolp/edit/master/{path}"
+git-repository-url = "https://github.com/SeniorMars/taolp"
+edit-url-template = "https://github.com/SeniorMars/taolp/edit/master/{path}"
 default-theme = "ayu"
 preferred-dark-theme = "ayu"
+smart-punctuation = true
 mathjax-support = true
+additional-css = ["./mdbook-admonish.css"]
+
+[output.html.search]
+enable = true            # enables the search feature
+limit-results = 30       # maximum number of search results
+teaser-word-count = 30   # number of words used for a search result teaser
+use-boolean-and = true   # multiple search terms must all match
+boost-title = 2          # ranking boost factor for matches in headers
+boost-hierarchy = 1      # ranking boost factor for matches in page names
+boost-paragraph = 1      # ranking boost factor for matches in text
+expand = true            # partial words will match longer terms
+heading-split-level = 3  # link results to heading levels
+copy-js = true           # include Javascript code for search
+
+[preprocessor]
+
+[preprocessor.admonish]
+command = "mdbook-admonish"
+assets_version = "3.0.2" # do not edit: managed by `mdbook-admonish install`

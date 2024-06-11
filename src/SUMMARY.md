@@ -33,7 +33,7 @@
 - [Week 5 Video]()
 - [Week 5 Homework]()
 
-# Github, Other Programming Websites, and Open Source
+# GitHub, Other Programming Websites, and Open Source
 - [Week 6 Notes]()
 - [Week 6 Video]()
 - [Week 6 Homework]()
@@ -43,7 +43,7 @@
 - [Week 7 Video]()
 - [Week 7 Homework]()
 
-# Debugging, Profiling & Test Driven Development
+# Debugging, Profiling & Test-Driven Development
 - [Week 8 Notes]()
 - [Week 8 Video]()
 - [Week 8 Homework]()
