@@ -11,7 +11,7 @@ edition = "2021"
 
 [output.html]
 git-repository-url = "https://github.com/SeniorMars/taolp"
-edit-url-template = "https://github.com/SeniorMars/taolp/edit/master/{path}"
+edit-url-template = "https://github.com/SeniorMars/taolp/edit/main/{path}"
 default-theme = "ayu"
 preferred-dark-theme = "ayu"
 smart-punctuation = true
