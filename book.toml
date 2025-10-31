@@ -35,3 +35,10 @@ copy-js = true           # include Javascript code for search
 [preprocessor.admonish]
 command = "mdbook-admonish"
 assets_version = "3.0.2" # do not edit: managed by `mdbook-admonish install`
+
+# [preprocessor.mermaid]
+# command = "mdbook-mermaid"
+#
+# [output.html]
+# additional-js = ["mermaid.min.js", "mermaid-init.js"]
+# opengh - toc
