@@ -75,7 +75,7 @@ Navigating the terminal requires familiarity with basic commands for directory m
 - **`curl`**: Fetch or send data using URL syntax, offering more options than `wget`. For differences, refer to [curl vs wget](https://daniel.haxx.se/docs/curl-vs-wget.html).
 
 #### Rust replacements
-Ah, I see! You're interested in Rust projects that reimplement or enhance traditional Unix commands. Here are several well-known Rust projects that serve as modern alternatives or enhancements to classic Unix commands:
+Here are several well-known Rust projects that serve as modern alternatives or enhancements to classic Unix commands:
 
 ### Rust Projects as Unix Command Alternatives
 - **Exa (`ls`)**: Exa is a modern replacement for `ls`, the traditional Unix command to list directory contents. It features better defaults and is rich in features like git integration and color-coded output.  [Github Link](github.com/ogham/exa)
