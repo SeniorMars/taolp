@@ -44,11 +44,10 @@ jobs:
         with:
           path: target
           key: ${{ runner.os }}-cargo-build-target-${{ hashFiles('**/Cargo.lock') }}
-      - name: Install mdbook and admonis plugin
-        uses: actions-rs/cargo@v1
-        with:
-          command: install
-          args: mdbook mdbook-admonish
+      - name: Install mdbook (pinned) + mdbook-admonish
+        run: |
+          cargo install mdbook --locked --force --version "0.4.43"
+          cargo install mdbook-admonish --locked --force
       - name: Setup Pages
         uses: actions/configure-pages@v5
       - name: Build Book

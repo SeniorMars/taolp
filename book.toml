@@ -1,13 +1,12 @@
 [book]
 authors = ["SeniorMars"]
 language = "en"
-multilingual = false
 src = "src"
 title = "The Art Of Lazy Programming"
 description = "COLL 128 - The Art Of Lazy Programming is a class that teaches students how to master their Programming environment"
 
 [rust]
-edition = "2021"
+edition = "2024"
 
 [output.html]
 git-repository-url = "https://github.com/SeniorMars/taolp"
@@ -34,7 +33,7 @@ copy-js = true           # include Javascript code for search
 
 [preprocessor.admonish]
 command = "mdbook-admonish"
-assets_version = "3.0.2" # do not edit: managed by `mdbook-admonish install`
+assets_version = "3.1.0" # do not edit: managed by `mdbook-admonish install`
 
 # [preprocessor.mermaid]
 # command = "mdbook-mermaid"

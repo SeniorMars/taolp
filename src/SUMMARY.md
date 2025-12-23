@@ -8,22 +8,22 @@
 - [Week 0 Video](week0/video.md)
 - [Week 0 Homework](week0/homework.md)
 
-# Data Wrangling & Unix Tools
-- [Week 1 Notes]()
-- [Week 1 Video]()
-- [Week 1 Homework]()
+# The Shell & Shell Scripting
+- [Week 1 Notes](week1/notes.md)
+- [Week 1 Video](week1/video.md)
+- [Week 1 Homework](week1/homework.md)
 
-# Shell Scripting
+# Terminal Text Editors & Better Alternatives 
 - [Week 2 Notes]()
 - [Week 2 Video]()
 - [Week 2 Homework]()
 
-# Terminal Text Editors & Better Alternatives
+# SSH, TMUX, and Intro to Servers 
 - [Week 3 Notes]()
 - [Week 3 Video]()
 - [Week 3 Homework]()
 
-# SSH, TMUX, and Intro to Servers
+# Data Wrangling + Python???!
 - [Week 4 Notes]()
 - [Week 4 Video]()
 - [Week 4 Homework]()
@@ -70,7 +70,7 @@
 # Installation the dependencies
 -----------
 [Week 0 Installation](installation/week0.md)
-[Week 1 Installation]()
+[Week 1 Installation](installation/week1.md)
 [Week 2 Installation]()
 [Week 3 Installation]()
 [Week 4 Installation]()
