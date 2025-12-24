@@ -2,6 +2,7 @@
 
 Week 1 builds on the Unix tools from Week 0 by showing you how to combine them into reusable, powerful scripts. Instead of typing the same commands repeatedly, you'll learn to write small programs that automate your workflow.
 
+
 ## Introduction
 
 So far you've executed individual commands and chained them with pipes. But what if you want to:

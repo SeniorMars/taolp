@@ -14,9 +14,9 @@
 - [Week 1 Homework](week1/homework.md)
 
 # Terminal Text Editors & Better Alternatives 
-- [Week 2 Notes]()
-- [Week 2 Video]()
-- [Week 2 Homework]()
+- [Week 2 Notes](week2/notes.md)
+- [Week 2 Video](week2/video.md)
+- [Week 2 Homework](week2/homework.md)
 
 # SSH, TMUX, and Intro to Servers 
 - [Week 3 Notes]()
@@ -71,7 +71,7 @@
 -----------
 [Week 0 Installation](installation/week0.md)
 [Week 1 Installation](installation/week1.md)
-[Week 2 Installation]()
+[Week 2 Installation](installation/week2.md)
 [Week 3 Installation]()
 [Week 4 Installation]()
 [Week 5 Installation]()
