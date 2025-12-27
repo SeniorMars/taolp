@@ -19,9 +19,9 @@
 - [Week 2 Homework](week2/homework.md)
 
 # SSH, TMUX, and Intro to Servers 
-- [Week 3 Notes]()
-- [Week 3 Video]()
-- [Week 3 Homework]()
+- [Week 3 Notes](week3/notes.md)
+- [Week 3 Video](week3/video.md)
+- [Week 3 Homework](week3/homework.md)
 
 # Data Wrangling + Python???!
 - [Week 4 Notes]()
@@ -72,7 +72,7 @@
 [Week 0 Installation](installation/week0.md)
 [Week 1 Installation](installation/week1.md)
 [Week 2 Installation](installation/week2.md)
-[Week 3 Installation]()
+[Week 3 Installation](installation/week3.md)
 [Week 4 Installation]()
 [Week 5 Installation]()
 [Week 6 Installation]()

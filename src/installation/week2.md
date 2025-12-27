@@ -2,6 +2,8 @@
 
 Prerequisites: You should have completed Week 0 and Week 1 installations. This week focuses on terminal text editors.
 
+Note to self: Make sure to mention how to upload files to remote servers using scp or sftp if needed.
+
 ---
 
 ## Check What You Have
