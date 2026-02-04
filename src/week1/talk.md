@@ -21,8 +21,6 @@ speaker_note: |
     - Type most things live (not just paste)
 -->
 
-<!-- jump_to_middle -->
-
 Three Problems
 ===
 

@@ -1448,27 +1448,6 @@ What you'll gain
 
 <!-- end_slide -->
 
-Next week
-===
-
-**Week 3: Data Wrangling**
-
-We'll use Vim to work with:
-- Regular expressions (pattern matching)
-- sed (stream editor)
-- awk (text processing)
-- Real messy data
-
-<!-- pause -->
-
-You'll be glad you learned Vim.
-
-<!-- pause -->
-
-All that data wrangling in Vim? Fast as lightning.
-
-<!-- end_slide -->
-
 Final thoughts
 ===
 

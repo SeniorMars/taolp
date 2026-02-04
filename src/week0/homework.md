@@ -4,8 +4,8 @@
 Please follow the instructions in the [Week 0 Installation Guide](../installation/week0.md) to install the necessary software and tools for this week.
 
 ## GitHub Repository Access
-To gain access to the team's repository, please either fill out [this form](https://forms.gle/7xPFEEouiEviU9vo8) or send me your GitHub username directly. Access the repository sections here: 
-- [Week 0](https://github.com/RTAOLP/week0)
+To gain access to the team's repository, please either fill out [this form](https://forms.gle/bNxeefKkSXPPh6Mt9) or send me your GitHub username directly. Access the repository sections here: 
+- [Week 0](https://github.com/RTAOLP/week0_spring2026)
 
 ## Notes
 For instructions on using the command line interface (CLI), refer to the [Week 0 Notes](./notes.md). Please note that while the basics of bash will be covered in our next lesson, you are encouraged to experiment on your own in the meantime.

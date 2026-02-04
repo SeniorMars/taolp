@@ -114,7 +114,7 @@ What you need to know
 
 <!-- pause -->
 
-**No midterm. No final exam. No busywork.**
+**No midterm. No final exam. No busywork.** Only one presenterm near the end of the semester.
 
 Just practical skills you'll actually use.
 
@@ -129,9 +129,9 @@ Weekly structure
 
 <!-- incremental_lists: true -->
 
-* **Monday**: Live demo + lecture (like today)
+* **Class**: Live demo + lecture (like today)
 * **During the week**: Small homework (1-2 hours max)
-* **Submit**: Via GitHub (we'll set this up week 1)
+* **Submit**: Via GitHub
 * **Office hours**: Bring your errors, confusion, and "why isn't this working" questions
 
 <!-- incremental_lists: false -->
